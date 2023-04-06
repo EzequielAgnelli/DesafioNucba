@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1 Nucba </title>
+</head>
+<body>
+    <h1> <u>Bienvenidos a mi perfil</u> </h1>
+    <img src="/Fotos/osito.jpg" alt="Osito caminando feliz" width="250px" height="250px">
+
+    <div class="informacion">
+    <h2><u>Informacion y Contacto:</u></h2>
+    <ul>
+        <li><b>Nombre:</b> Ezequiel</li>
+        <li><b>Email:</b> ezequielagnelli@gmail.com</li>
+        <li><b>Edad:</b> 19 Años.</li>
+        <li> <a href="https://www.instagram.com/ezevirgilio_/"target="_blank">Contactame</a> </li>
+    </ul>
+    <hr>
+</div>
+<h2>Formulario para contactase:</h2>
+<form>
+    <label for="nombre">Nombre: </label>
+    <input type="text" id="nombre" placeholder="Ingresa tu Nombre" required>
+    <br>
+    <label for="apellido">Apellido: </label>
+    <input type="text" id="apellido" placeholder="Ingresa tu Apellido" required>
+    <br>
+    <label for="email">Email: </label>
+    <input type="text" id="email" placeholder="Ingresa tu Email alternativo" required>
+    <br>
+    <label for="nacimiento">Ingresa tu fecha de Nacimiento</label>
+    <input type="date" id="nacimiento">
+    <br>
+    <label for="edad">Edad</label>
+    <input type="number" id="edad">
+    <br>
+    <h3>Medio de contacto preferido:</h3>
+    <label for="whatsApp">WhatsApp</label>
+    <input type="radio" id="whatsApp" name="contacto">
+    <label for="instagram">Instagram</label>
+    <input type="radio" id="instagram" name="contacto">
+    <label for="twitter">Twitter</label>
+    <input type="radio" id="twitter" name="contacto">
+    <label for="facebook">Facebook</label>
+    <input type="radio" id="facebook" name="contacto">
+    <br>
+    <h3>Plato favorito:</h3>
+    <select>
+        <option value="milanesasdepollo">Milanesas De Pollo</option>
+        <option value="milanesasdecarne">Milanesas de Carne</option>
+        <option value="hamburguesaconpapas">Hamburguesa con Papas</option>
+    </select>
+    <br>
+    <label for="extra">Introducí algo de informacion Extra que debamos de tener en cuenta.</label>
+    <br>
+    <textarea name="extra" id="extra" cols="40" rows="10" placeholder="Ej: Alergico/a a los frutos secos"></textarea>
+    <br>
+    <input type="submit" value="Enviar">
+    <br>
+    <label for="checkbox1">¿Estas de acuerdo con que enviemos noticias mensuales?</label>
+    <input type="checkbox" id="checkbox1" checked>
+    <br>
+    <label for="chekbox2">Estoy de acuerdo con los terminos y condiciones.</label>
+    <input type="checkbox" id="checkbox2" required>
+</form>
+<hr>
+    <h2><u>Datos extra sobre mi:</u></h2>
+    <p>Solia ir a clases de MMA (Artes Marciales Mixtas), me gustan mucho las milanesas de pollo, me considero una persona muy friendly y tengo una adiccion por las series.<br>A continuacion una fotito mia.</p>
+    <img src="/Fotos/42075403.555_image.png" alt="Yo" height="200px">
+</body>
+</html>
